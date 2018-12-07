@@ -16,7 +16,7 @@
    * set DB_USERNAME
    * set DB_PASSWORD
 * type `php artisan migrate --seed` to create and populate tables
-* type `php artisan serve` to start the app on http://localhost:8000/git
+* type `php artisan serve` to start the app on http://localhost:8000/
 
 
 ### Features ###
