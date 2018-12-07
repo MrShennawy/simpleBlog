@@ -26,7 +26,7 @@ class usersTable extends Seeder
 	        $newUser = User::create([
 	        		'name' => $faker->name,
 	        		'email' => $faker->email,
-	        		'isAdmin' => null,
+	        		'isAdmin' => 0,
 	        		'password' => bcrypt('123456')
 	        	]);
             echo 'User => '.$newUser->id."\n";
